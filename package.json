@@ -1,0 +1,55 @@
+{
+  "name": "@autoweave/db-reader",
+  "version": "0.0.0-development",
+  "description": "📚 Universal database reader supporting multiple database types",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src tests",
+    "lint:fix": "eslint src tests --fix",
+    "build": "echo 'No build required for JS'",
+    "semantic-release": "semantic-release"
+  },
+  "keywords": [
+    "autoweave",
+    "db-reader",
+    "claude-code",
+    "database",
+    "sql",
+    "nosql",
+    "query",
+    "nodejs"
+  ],
+  "author": "Gontrand <gontrand@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GontrandL/db-reader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GontrandL/db-reader/issues"
+  },
+  "homepage": "https://github.com/GontrandL/db-reader#readme",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "sqlite3": "^5.1.6",
+    "mysql2": "^3.9.0",
+    "pg": "^8.11.3",
+    "mongodb": "^6.3.0",
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "semantic-release": "^23.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
